@@ -1,4 +1,4 @@
-import './button.scss';
+//import './button.scss';
 
 const { Component } = wp.element;
 
