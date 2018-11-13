@@ -48,7 +48,7 @@ module.exports = {
         },
       },
       {
-        test: /style\.s?css$/,
+        test: /([a-zA-Z0-9\s_\\.\-\(\):])+(.s?css)$/,
         use: blocksCSSPlugin.extract( extractConfig ),
       },
     ],
