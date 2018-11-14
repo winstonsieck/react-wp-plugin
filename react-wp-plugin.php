@@ -2,7 +2,9 @@
 /*
    Plugin Name: React in WP
    Version: 1.0.0
-   Description: Template for including React in a Wordpress Plugin
+   Author: JS for WP gang
+   Author URI: https://javascriptforwp.com
+   Description: Template for including React in a Wordpress Plugin.
    Text Domain: react-in-wp
    License: GPLv3
 */
@@ -11,7 +13,7 @@ defined( 'ABSPATH' ) or die( 'No direct access!' );
 
 function reactwp_scripts() {
 
-  if( is_single( 1794 ) ) {
+  if( is_page( 'react-in-wp' ) ) {
 
 	  wp_enqueue_script(
 		  'reactwp-main-js',

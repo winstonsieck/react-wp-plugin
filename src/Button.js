@@ -1,4 +1,4 @@
-//import './button.scss';
+import './button.scss';
 
 const { Component } = wp.element;
 
@@ -10,6 +10,8 @@ class Button extends Component {
             count: 0,
         };
     }
+
+// Below snippet from Zac's React book, doesn't work here
     // handleIncrement = () => {
     //     this.setState({ count: this.state.count + 1 });
     // };
