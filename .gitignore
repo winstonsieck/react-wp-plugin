@@ -9,3 +9,4 @@ composer.lock
 # I'll include it here to help out.
 .DS_Store
 .DS_Store?
+package-lock.json

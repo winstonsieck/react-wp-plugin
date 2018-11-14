@@ -18,7 +18,7 @@ function reactwp_scripts() {
 	  wp_enqueue_script(
 		  'reactwp-main-js',
 		  plugins_url( '/assets/js/main.js', __FILE__ ),
-		  ['wp-element'],
+		  ['wp-element', 'wp-components'],
 		  time(),
 		  true
 	  );
