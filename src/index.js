@@ -1,5 +1,6 @@
 
-// Uncomment these first two lines to run React without JSX - no tooling needed
+// The two lines below run React without JSX - no tooling needed
+// Note: They run from main.js initially, and are overwritten when the tooling is activated
 
 const pEl = wp.element.createElement("p", {}, "Hello WP from React.");
 wp.element.render(pEl, document.querySelector( '.entry-content' ) );
