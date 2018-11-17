@@ -14,5 +14,5 @@ wp.element.render(pEl, document.querySelector( '.entry-content' ) );
 
 //With tooling set up, uncomment the following two lines to check WP with interactive react
 
-// import Button from './Button';
-// wp.element.render(<Button />, document.querySelector( '.entry-content' ) );
+// import Counter from './Counter';
+// wp.element.render(<Counter />, document.querySelector( '.entry-content' ) );
